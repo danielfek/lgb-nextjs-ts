@@ -154,12 +154,6 @@ export default function Landing() {
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <a
-                href="#participa"
-                className="inline-flex items-center justify-center rounded-2xl bg-neutral-900 text-white px-5 py-3 text-sm font-medium hover:bg-neutral-800 focus:outline-none focus-visible:ring"
-              >
-                Súmate a la red
-              </a>
-              <a
                 href="/manifiesto"
                 className="inline-flex items-center justify-center rounded-2xl border border-neutral-300 px-5 py-3 text-sm font-medium hover:bg-white"
               >
