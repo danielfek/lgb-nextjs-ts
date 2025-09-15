@@ -4,9 +4,14 @@ import Navbar from "@/components/Navbar";
 import { RECURSOS } from "@/components/resources-data";
 import { notFound } from "next/navigation";
 
-type Props = { params: { id: string } };
+//type Props = { params: { id: string } };
 
-export default function RecursoDetallePage({ params }: Props) {
+//export default function RecursoDetallePage({ params }: Props) {
+export default function RecursoDetallePage({
+  params,
+}: {
+  params: { id: string };
+}) {
   const { id } = params;
   const recurso = RECURSOS.find((r) => r.id === id);
 
