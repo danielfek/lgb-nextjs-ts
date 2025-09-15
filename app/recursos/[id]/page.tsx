@@ -4,9 +4,8 @@ import Navbar from "@/components/Navbar";
 import { RECURSOS } from "@/components/resources-data";
 import { notFound } from "next/navigation";
 
-//type Props = { params: { id: string } };
+// The 'Props' type has been removed and is now defined inline below.
 
-//export default function RecursoDetallePage({ params }: Props) {
 export default function RecursoDetallePage({
   params,
 }: {
